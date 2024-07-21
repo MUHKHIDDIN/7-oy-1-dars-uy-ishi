@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
-    <div className="pb-20">
+    <div className="pb-20 w-[1360px] ml-auto mr-auto">
       <div className="container mt-5 flex items-center justify-between rounded-lg bg-gray-300 p-5 shadow-lg">
         <img src="/Header-logo.png" alt="logo" className="h-10 w-auto" />
         <nav>
